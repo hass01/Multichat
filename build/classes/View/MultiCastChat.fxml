@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="socket_network.MultiCastChatController">
+   <children>
+      <AnchorPane id="AnchorPane" layoutX="10.0" layoutY="10.0" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <TextArea fx:id="msg" layoutX="-7.0" layoutY="300.0" prefHeight="94.0" prefWidth="490.0" />
+            <Button fx:id="send" layoutX="489.0" layoutY="300.0" mnemonicParsing="false" onMouseClicked="#HandleAction" prefHeight="94.0" prefWidth="97.0" text="Send" />
+            <ListView fx:id="chat" layoutX="-7.0" layoutY="-7.0" prefHeight="297.0" prefWidth="399.0" />
+            <ListView fx:id="Users" layoutX="403.0" layoutY="-7.0" prefHeight="297.0" prefWidth="180.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
